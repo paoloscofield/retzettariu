@@ -94,7 +94,7 @@ Se il risultato è "v(numero della versione)" potete continuare.
 
 ### Firebase
 
-Per utilizzare e modificare l'app è necessario avere un account Firebase attivo
+L'app utilizza il database e lo storage di Google Firebase. Per modificare e utilizzare l'applicazione è necessario avere un account Firebase attivo e creare un progetto dedicato, seguendo le linee guidadisponibili su https://firebase.google.com/docs/guides?hl=it
 
 ### Installazione
 
@@ -110,8 +110,12 @@ Per utilizzare e modificare l'app è necessario avere un account Firebase attivo
    ```sh
    npm install
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+4. Creare un file `.env.local` e collegare il proprio progetto Firebase inserendo le variabili d'ambiente fornite. Tutte le variabili devono iniziare con `VITE_`; i nomi delle variabili d'ambiente corrispondono al nome delle variabili di Firebase in uppercase e senza separatori.
+   Ad esempio il valore di `apiKey` sarà inserito nella variabile:
+   ```sh
+   VITE_APIKEY = 'value'
+   ```
+   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
