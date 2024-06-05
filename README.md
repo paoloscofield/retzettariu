@@ -92,6 +92,10 @@ node -v
 
 Se il risultato è "v(numero della versione)" potete continuare.
 
+### Firebase
+
+Per utilizzare e modificare l'app è necessario avere un account Firebase attivo
+
 ### Installazione
 
 1. Clonare la repo
